@@ -24,3 +24,4 @@ model Task {
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 }// Configuración Prisma confirmada
+// Migración inicial completada
