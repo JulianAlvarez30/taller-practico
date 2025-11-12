@@ -6,4 +6,4 @@ router.post('/', createUser);
 router.get('/', listUsers);
 router.get('/:id', getUserById);
 
-module.exports = router;
+module.exports = router;// Controladores de usuarios listos
