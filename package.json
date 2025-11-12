@@ -1,0 +1,24 @@
+{
+  "name": "taller-node-prisma-supabase",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev --name init"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "prisma": "^5.22.0"
+  },
+  "description": "## Pasos 1. Copia tu DATABASE_URL de Supabase en .env 2. npm install 3. npx prisma migrate dev --name init 4. npm run dev",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
