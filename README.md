@@ -16,3 +16,4 @@
 
 Puerto: 3000
 Sin autenticación / sin helmet/cors (requisito del taller)
+# Taller Node.js API - Proyecto finalizado
